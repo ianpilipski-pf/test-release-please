@@ -26,6 +26,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         id: release
         with:
+          default-branch: ${{ steps.extract_branch.outputs.branch }}
           release-type: node
           package-name: com.peoplefun.platform-tech.core
           component: core
