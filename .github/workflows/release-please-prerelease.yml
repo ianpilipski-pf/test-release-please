@@ -1,5 +1,5 @@
 
-name: Automated Release
+name: Automated PreRelease
 
 on:
   push:
