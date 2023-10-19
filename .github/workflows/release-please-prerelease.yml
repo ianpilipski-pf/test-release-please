@@ -1,10 +1,10 @@
 
 name: Automated PreRelease
 
-on:
-  push:
-    branches:
-      - prerelease
+#on:
+#  push:
+#    branches:
+#      - prerelease
 
 permissions:
   contents: write
