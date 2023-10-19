@@ -1,24 +1,24 @@
 {
-    "name": "com.peoplefun.platform-tech.core",
-    "version": "0.8.0-pre.3",
-    "displayName": "Platform Tech: Core",
-    "description": "Platform Tech: Core Unity Package",
-    "author": "PeopleFun",
-    "email": "centraltech@peoplefun.com",
-    "unity": "2021.3",
-    "unityRelease": "21f1",
-    "keywords": [
-      "Analytics"
-    ],
-    "samples": [
-      {
-        "displayName": "RemoteConfig - ForcedUpgrade",
-        "description": "A simple example of how you can do a forced upgrade using remote config",
-        "path": "Samples~/RemoteConfig"
-      }
-    ],
-    "dependencies": {
-      "com.unity.nuget.newtonsoft-json": "3.0.2"
+  "name": "com.peoplefun.platform-tech.core",
+  "version": "1.0.0",
+  "displayName": "Platform Tech: Core",
+  "description": "Platform Tech: Core Unity Package",
+  "author": "PeopleFun",
+  "email": "centraltech@peoplefun.com",
+  "unity": "2021.3",
+  "unityRelease": "21f1",
+  "keywords": [
+    "Analytics"
+  ],
+  "samples": [
+    {
+      "displayName": "RemoteConfig - ForcedUpgrade",
+      "description": "A simple example of how you can do a forced upgrade using remote config",
+      "path": "Samples~/RemoteConfig"
     }
+  ],
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.0.2"
   }
+}
   
