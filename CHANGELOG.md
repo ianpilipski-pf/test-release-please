@@ -1,5 +1,13 @@
 # `com.peoplefun.platform-tech.core` Changelog
 
+## [1.0.3](https://github.com/ianpilipski-pf/test-release-please/compare/1.0.2...1.0.3) (2023-10-19)
+
+
+### Bug Fixes
+
+* extra files version comment ([d166164](https://github.com/ianpilipski-pf/test-release-please/commit/d166164e871b1badc7a849c2f935fd8488aeb4b2))
+* modified the manifest ([31bf287](https://github.com/ianpilipski-pf/test-release-please/commit/31bf28721f315bab9e78ee4f2f69cce2246eda7b))
+
 ## [1.0.2](https://github.com/ianpilipski-pf/test-release-please/compare/v1.0.1...1.0.2) (2023-10-19)
 
 

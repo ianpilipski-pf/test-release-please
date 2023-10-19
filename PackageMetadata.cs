@@ -5,7 +5,7 @@ namespace PeopleFun.PlatformTech
     {
         public const string PtCoreName = "pt.core";
         //x-release-please-start-version
-        public const string PtCoreVersion = "1.0.1";
+        public const string PtCoreVersion = "1.0.3";
         //x-release-please-end
     }
 }
