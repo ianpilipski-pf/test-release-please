@@ -5,7 +5,7 @@
     "extra-files": [ "PackageMetadata.cs" ],
     "packages": {
         ".": {
-            
+            "component": "core"
         }
     }
 }
