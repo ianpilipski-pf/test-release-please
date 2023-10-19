@@ -1,5 +1,12 @@
 # `com.peoplefun.platform-tech.core` Changelog
 
+## [1.0.4-pre.1](https://github.com/ianpilipski-pf/test-release-please/compare/1.0.3...1.0.4-pre.1) (2023-10-19)
+
+
+### Miscellaneous Chores
+
+* set release version to  1.0.4-pre.1 ([0b24a01](https://github.com/ianpilipski-pf/test-release-please/commit/0b24a013fbb60afc72d24ca5bc599baea60c2b1a))
+
 ## [1.0.3](https://github.com/ianpilipski-pf/test-release-please/compare/1.0.2...1.0.3) (2023-10-19)
 
 
