@@ -22,12 +22,12 @@ jobs:
         with:
           default-branch: prerelease
           prerelease: true
-          
+
           release-type: node
           package-name: com.peoplefun.platform-tech.core
           component: core
           include-v-in-tag: false
           extra-files: |
-            Runtime/PackageMetadata.cs
+            PackageMetadata.cs
 
 

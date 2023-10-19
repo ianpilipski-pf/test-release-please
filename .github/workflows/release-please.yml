@@ -31,6 +31,6 @@ jobs:
           component: core
           include-v-in-tag: false
           extra-files: |
-            Runtime/PackageMetadata.cs
+            PackageMetadata.cs
 
 
