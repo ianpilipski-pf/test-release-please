@@ -1,5 +1,12 @@
 # `com.peoplefun.platform-tech.core` Changelog
 
+## [1.0.1](https://github.com/ianpilipski-pf/test-release-please/compare/1.0.0...1.0.1) (2023-10-19)
+
+
+### Bug Fixes
+
+* fix path to extra-files ([b48c556](https://github.com/ianpilipski-pf/test-release-please/commit/b48c556b3047e2ac9fec220e22336c23d13fa7ad))
+
 ## 1.0.0 (2023-10-19)
 
 
