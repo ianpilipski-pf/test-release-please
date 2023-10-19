@@ -4,7 +4,6 @@ name: Automated Release
 on:
   push:
     branches:
-      - main
       - prerelease
 
 permissions:
@@ -18,15 +17,12 @@ jobs:
       tag_name: ${{ steps.release.outputs.tag_name }}
       release_created: ${{ steps.release.outputs.release_created }}
     steps:
-      - name: Extract branch name
-        shell: bash
-        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
-        id: extract_branch
-
       - uses: google-github-actions/release-please-action@v3
         id: release
         with:
-          default-branch: ${{ steps.extract_branch.outputs.branch }}
+          default-branch: prerelease
+          prerelease: true
+
           release-type: node
           package-name: com.peoplefun.platform-tech.core
           component: core
