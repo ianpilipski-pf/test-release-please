@@ -1,5 +1,19 @@
 # `com.peoplefun.platform-tech.core` Changelog
 
+## [1.0.1-pre.1](https://github.com/ianpilipski-pf/test-release-please/compare/1.0.0...1.0.1-pre.1) (2023-10-19)
+
+
+### doc
+
+* modified changelog ([4f6f4dd](https://github.com/ianpilipski-pf/test-release-please/commit/4f6f4dd550687ccd0d33e350fffea7fda48cf33d))
+
+
+### Bug Fixes
+
+* changed the name of the prerelease job ([92b4248](https://github.com/ianpilipski-pf/test-release-please/commit/92b4248067f6da18edaa943381cb47f202680cfd))
+* fix path to extra-files ([b48c556](https://github.com/ianpilipski-pf/test-release-please/commit/b48c556b3047e2ac9fec220e22336c23d13fa7ad))
+* removed prerelease branch from main ([9275c74](https://github.com/ianpilipski-pf/test-release-please/commit/9275c74893bc314a59a1d20343f01903b990a7a2))
+
 ## 1.0.0 (2023-10-19)
 
 
@@ -19,4 +33,3 @@
 
 * release 1.0.0 ([27e6986](https://github.com/ianpilipski-pf/test-release-please/commit/27e698678282b6dd6568665da198e575ac06be2f))
 * release 1.0.0-pre.1 ([71b0167](https://github.com/ianpilipski-pf/test-release-please/commit/71b0167168d33c86f1bed06dd01e63926b0be713))
-
