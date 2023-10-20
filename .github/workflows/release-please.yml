@@ -5,7 +5,8 @@ on:
   push:
     branches:
       - main
-      - patch/*
+      - prerelease\*
+      - hotfix\*
 
 permissions:
   contents: write
@@ -18,16 +19,35 @@ jobs:
       tag_name: ${{ steps.release.outputs.tag_name }}
       release_created: ${{ steps.release.outputs.release_created }}
     steps:
-      - name: Extract branch name
+      - name: Create job properties
         shell: bash
-        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
-        id: extract_branch
+        run: |
+          branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}
+          if [[ "$branch" == 'prerelease\\'* ]]; then
+            prerelease=true
+            if [[ "$branch" == "main" ]]; then
+              configfile="release-please-config.json"
+            else
+              configfile="release-please-config-hotfix.json"
+            fi
+          else
+            prerelease=false
+            configfile="release-please-config-prerelease.json"
+          fi 
+          
+          echo "branch=$branch" >> $GITHUB_ENV
+          echo "prerelease=$prerelease" >> $GITHUB_ENV
+          echo "configfile=$configfile" >> $GITHUB_ENV
+        
 
       - uses: google-github-actions/release-please-action@v3
         id: release
         with:
           command: manifest
-          default-branch: ${{ steps.extract_branch.outputs.branch }}
+          config-file: ${{ env.configfile }}
+          default-branch: ${{ env.branch }}
+          #default-branch: ${{ steps.extract_branch.outputs.branch }}
+          
           
 
 
