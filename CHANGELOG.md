@@ -1,5 +1,12 @@
 # `com.peoplefun.platform-tech.core` Changelog
 
+## [1.1.0](https://github.com/ianpilipski-pf/test-release-please/compare/1.0.3...1.1.0) (2023-10-20)
+
+
+### Features
+
+* adding prerelease manifest ([0d33b54](https://github.com/ianpilipski-pf/test-release-please/commit/0d33b54fedbc63cfef666ac2b68c77fea65c71f3))
+
 ## [1.0.3](https://github.com/ianpilipski-pf/test-release-please/compare/1.0.2...1.0.3) (2023-10-19)
 
 
