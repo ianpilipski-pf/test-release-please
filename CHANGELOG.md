@@ -1,5 +1,20 @@
 # `com.peoplefun.platform-tech.core` Changelog
 
+## [1.2.0](https://github.com/ianpilipski-pf/test-release-please/compare/1.1.0...1.2.0) (2023-10-27)
+
+
+### Features
+
+* update git hub action ([0c0bb4b](https://github.com/ianpilipski-pf/test-release-please/commit/0c0bb4b734cd2d600b0bfed59af9032e79efde1d))
+
+
+### Bug Fixes
+
+* add missing hotfix config ([832d3c3](https://github.com/ianpilipski-pf/test-release-please/commit/832d3c3b7651e750b0478d1ccbb4c13bee6fb0b4))
+* branch patterns now recognized in git action ([3dd04e1](https://github.com/ianpilipski-pf/test-release-please/commit/3dd04e143a1a7c6b92443bdbd8d0202c4b1fade1))
+* really fixed the github action path for branches ([84114aa](https://github.com/ianpilipski-pf/test-release-please/commit/84114aa8f9a8844ba1352e082210ccf6d359df91))
+* trying a fix to see if it triggers the pull request update ([917cd33](https://github.com/ianpilipski-pf/test-release-please/commit/917cd33c1a713fdf1c7b3f8a88b87b05ec83f41c))
+
 ## [1.1.0](https://github.com/ianpilipski-pf/test-release-please/compare/1.0.3...1.1.0) (2023-10-20)
 
 
