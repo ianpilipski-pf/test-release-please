@@ -1,5 +1,19 @@
 # `com.peoplefun.platform-tech.core` Changelog
 
+## [1.3.0](https://github.com/ianpilipski-pf/test-release-please/compare/1.2.0...1.3.0) (2023-10-27)
+
+
+### Features
+
+* added cool stuff ([d432306](https://github.com/ianpilipski-pf/test-release-please/commit/d43230604eab9485c3275e973134c6869b08df1d))
+
+
+### Bug Fixes
+
+* fix to rp settings ([53b0e6b](https://github.com/ianpilipski-pf/test-release-please/commit/53b0e6b53371abf06ade30024960eb0beb4470c3))
+* release please ([7059990](https://github.com/ianpilipski-pf/test-release-please/commit/7059990182943a529d373ed71fe6bdc096d0f758))
+* testing branch selection in rp ([668868f](https://github.com/ianpilipski-pf/test-release-please/commit/668868faf1b1c25cfbd7917b20dc2e0e0684ecc0))
+
 ## [1.2.0](https://github.com/ianpilipski-pf/test-release-please/compare/1.1.0...1.2.0) (2023-10-27)
 
 
