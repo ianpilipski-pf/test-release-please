@@ -5,8 +5,8 @@ on:
   push:
     branches:
       - main
-      - prerelease/*
-      - hotfix/*
+      - 'prerelease/*'
+      - 'hotfix/*'
 
 permissions:
   contents: write
