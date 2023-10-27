@@ -24,13 +24,16 @@ jobs:
         run: |
           branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}
           echo BRANCH = $branch
-          if [[ "$branch" == 'hotfix\\'* ]]; then
+          if [[ "$branch" == 'hotfix/'* ]]; then
+            echo HOTFIX
             prerelease=false
             configfile="release-please-config-hotfix.json"
           elif [[ "$branch" == "main" ]]; then
+            echo MAIN
             prerelease=false
             configfile="release-please-config.json"
           else
+            echo PRERELEASE
             prerelease=true
             configfile="release-please-config-prerelease.json"
           fi 
