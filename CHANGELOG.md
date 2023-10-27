@@ -1,5 +1,23 @@
 # `com.peoplefun.platform-tech.core` Changelog
 
+## [1.2.1](https://github.com/ianpilipski-pf/test-release-please/compare/1.2.0...1.2.1) (2023-10-27)
+
+
+### Features
+
+* added cool stuff ([d432306](https://github.com/ianpilipski-pf/test-release-please/commit/d43230604eab9485c3275e973134c6869b08df1d))
+
+
+### Bug Fixes
+
+* hotfix ([09c0826](https://github.com/ianpilipski-pf/test-release-please/commit/09c0826ef69830f814423c95ee1ee8864e241663))
+* release please ([7059990](https://github.com/ianpilipski-pf/test-release-please/commit/7059990182943a529d373ed71fe6bdc096d0f758))
+
+
+### Miscellaneous Chores
+
+* release 1.2.1 ([819f878](https://github.com/ianpilipski-pf/test-release-please/commit/819f8787397761d1f3fe7a9d174d5ca6d210e81f))
+
 ## [1.2.0](https://github.com/ianpilipski-pf/test-release-please/compare/1.1.0...1.2.0) (2023-10-27)
 
 
