@@ -3,6 +3,8 @@
     "include-v-in-tag": false,
     "include-component-in-tag": false,
     "extra-files": [ "PackageMetadata.cs" ],
+    "prerelease": false,
+    "versioning": "default",
     "packages": {
         ".": {
             "component": "core"

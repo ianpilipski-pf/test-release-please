@@ -23,15 +23,14 @@ jobs:
         shell: bash
         run: |
           branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}
-          if [[ "$branch" == 'prerelease\\'* ]]; then
-            prerelease=true
-            if [[ "$branch" == "main" ]]; then
-              configfile="release-please-config.json"
-            else
-              configfile="release-please-config-hotfix.json"
-            fi
-          else
+          if [[ "$branch" == 'hotfix\\'* ]]; then
             prerelease=false
+            configfile="release-please-config-hotfix.json"
+          elif [[ "$branch" == "main" ]]; then
+            prerelease=false
+            configfile="release-please-config.json"
+          else
+            prerelease=true
             configfile="release-please-config-prerelease.json"
           fi 
           
@@ -46,7 +45,7 @@ jobs:
           command: manifest
           config-file: ${{ env.configfile }}
           default-branch: ${{ env.branch }}
-          #default-branch: ${{ steps.extract_branch.outputs.branch }}
+          
           
           
 
