@@ -23,6 +23,7 @@ jobs:
         shell: bash
         run: |
           branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}
+          echo BRANCH = $branch
           if [[ "$branch" == 'hotfix\\'* ]]; then
             prerelease=false
             configfile="release-please-config-hotfix.json"
