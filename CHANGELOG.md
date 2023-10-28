@@ -1,5 +1,12 @@
 # `com.peoplefun.platform-tech.core` Changelog
 
+## [1.3.1](https://github.com/ianpilipski-pf/test-release-please/compare/1.3.0...1.3.1) (2023-10-27)
+
+
+### Features
+
+* cleaned up notes ([60ff2c8](https://github.com/ianpilipski-pf/test-release-please/commit/60ff2c8390e02532adebbd09cedbba11844ca927))
+
 ## [1.3.0](https://github.com/ianpilipski-pf/test-release-please/compare/1.2.0...1.3.0) (2023-10-27)
 
 
