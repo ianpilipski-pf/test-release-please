@@ -3,6 +3,7 @@
 
 another change
 
+
 ## Publish a new package version
 - `If version is still appropriate to the changes` then release new version
 - Bump semantic version patch number (or depending on planned changes minor or major version)
