@@ -3,6 +3,7 @@
 
 another change
 
+feature cool
 
 ## Publish a new package version
 - `If version is still appropriate to the changes` then release new version
