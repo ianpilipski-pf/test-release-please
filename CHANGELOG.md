@@ -1,5 +1,19 @@
 # `com.peoplefun.platform-tech.core` Changelog
 
+## [1.6.0](https://github.com/ianpilipski-pf/test-release-please/compare/1.5.0...1.6.0) (2023-10-28)
+
+
+### Features
+
+* added to notes ([55ac944](https://github.com/ianpilipski-pf/test-release-please/commit/55ac944ea07bf0245b758d569203c07d55698352))
+* coolness ([#22](https://github.com/ianpilipski-pf/test-release-please/issues/22)) ([55ac944](https://github.com/ianpilipski-pf/test-release-please/commit/55ac944ea07bf0245b758d569203c07d55698352))
+
+
+### Bug Fixes
+
+* removed file ([55ac944](https://github.com/ianpilipski-pf/test-release-please/commit/55ac944ea07bf0245b758d569203c07d55698352))
+* some fix ([861d24c](https://github.com/ianpilipski-pf/test-release-please/commit/861d24c0fd71e9ce2ca9187b314e1adcec0fbee2))
+
 ## [1.5.0](https://github.com/ianpilipski-pf/test-release-please/compare/1.4.0...1.5.0) (2023-10-27)
 
 
