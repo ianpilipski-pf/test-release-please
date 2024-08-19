@@ -47,7 +47,7 @@ jobs:
         id: release
         with:
           config-file: ${{ env.configfile }}
-          default-branch: ${{ env.branch }}
+          target-branch: ${{ env.branch }}
           
           
           
