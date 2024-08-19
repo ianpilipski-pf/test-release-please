@@ -4,7 +4,7 @@
     "monorepo-tags": true,
     "tag-separator": "/",
     "include-v-in-tag": false,
-    "versioning": "default",
+    "versioning": "prerelease",
     "always-link-local": true,
     "packages": {
         "packages/base": {
