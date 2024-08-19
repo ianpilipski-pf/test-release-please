@@ -1,13 +1,16 @@
 {
     "release-type": "node",
+    "plugins": [ "node-workspace" ],
+    "monorepo-tags": true,
+    "tag-separator": "/",
     "include-v-in-tag": false,
-    "include-component-in-tag": false,
-    "extra-files": [ "PackageMetadata.cs" ],
-    "prerelease": false,
     "versioning": "always-bump-patch",
+    "always-link-local": true,
     "packages": {
-        ".": {
-            "component": "core"
+        "packages/base": {
+            "extra-files": [ "packages/base/PackageMetadata.cs" ]
+        },
+        "packages/foo": {
         }
     }
 }
