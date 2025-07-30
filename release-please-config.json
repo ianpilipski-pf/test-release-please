@@ -13,8 +13,8 @@
         "packages/foo": {
         },
         "packages/foo/bar": {
-        
+        },
+        "packages/baz": {
         }
-
     }
 }
