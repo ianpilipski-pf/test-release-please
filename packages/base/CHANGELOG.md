@@ -1,5 +1,12 @@
 # `com.peoplefun.platform-tech.core` Changelog
 
+## [1.2.0](https://github.com/ianpilipski-pf/test-release-please/compare/com.test.base/1.1.0...com.test.base/1.2.0) (2025-07-30)
+
+
+### Features
+
+* modifying base package again ([356644e](https://github.com/ianpilipski-pf/test-release-please/commit/356644ebd0b14726994cb6d779ee30748e94ed3f))
+
 ## [1.1.0](https://github.com/ianpilipski-pf/test-release-please/compare/com.test.base/1.0.2...com.test.base/1.1.0) (2025-07-30)
 
 

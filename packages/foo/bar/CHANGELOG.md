@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.2](https://github.com/ianpilipski-pf/test-release-please/compare/com.test.bar/1.1.1...com.test.bar/1.1.2) (2025-07-30)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * com.test.base bumped from 1.1.0 to 1.2.0
+
 ## [1.1.1](https://github.com/ianpilipski-pf/test-release-please/compare/com.test.bar/1.1.0...com.test.bar/1.1.1) (2025-07-30)
 
 

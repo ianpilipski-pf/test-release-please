@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.0.3](https://github.com/ianpilipski-pf/test-release-please/compare/com.test.baz/1.0.2...com.test.baz/1.0.3) (2025-07-30)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * com.test.bar bumped from 1.1.1 to 1.1.2
+
 ## 1.0.2 (2025-07-30)
 
 
