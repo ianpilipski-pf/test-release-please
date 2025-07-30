@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/ianpilipski-pf/test-release-please/compare/com.test.bar/1.0.2...com.test.bar/1.1.0) (2025-07-30)
+
+
+### Features
+
+* added a file ([a7a99ea](https://github.com/ianpilipski-pf/test-release-please/commit/a7a99ea99501431fd74f77db3c2e00ef76f35a7c))
+
 ## 1.0.2 (2025-07-30)
 
 
