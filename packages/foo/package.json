@@ -1,8 +1,8 @@
 {
   "name": "com.test.foo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "dependencies": {
-    "com.test.bar": "1.1.1"
+    "com.test.bar": "1.1.2"
   }
 }
   
