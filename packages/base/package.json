@@ -1,6 +1,6 @@
 {
   "name": "com.test.base",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "dependencies": {
     "com.unity.nuget.newtonsoft-json": "3.0.2"
   }
