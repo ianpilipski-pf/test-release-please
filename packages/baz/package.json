@@ -1,8 +1,8 @@
 {
   "name": "com.test.baz",
-  "version": "0.0.1",
+  "version": "1.0.2",
   "dependencies": {
-    "com.test.bar": "1.1.0"
+    "com.test.bar": "1.1.1"
   }
 }
   
