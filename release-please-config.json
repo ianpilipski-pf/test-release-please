@@ -11,6 +11,10 @@
             "extra-files": [ "packages/base/PackageMetadata.cs" ]
         },
         "packages/foo": {
+        },
+        "packages/foo/bar": {
+        
         }
+
     }
 }

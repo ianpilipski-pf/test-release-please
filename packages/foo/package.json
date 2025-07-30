@@ -2,7 +2,7 @@
   "name": "com.test.foo",
   "version": "0.0.1",
   "dependencies": {
-    "com.test.base": "0.0.1"
+    "com.test.bar": "0.0.1"
   }
 }
   
